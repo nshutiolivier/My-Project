@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.nav{
+    background-color: rgba(92, 78, 78, 0.658);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    
+}
+nav a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+}
+nav a:hover{
+    color: rgba(64, 109, 132, 0.594);
+}  
+body{
+  background-color:  rgba(114, 86, 142, 0.374);
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+button{
+  padding: 9px;
+  margin-left: 100px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right,rgba(68, 49, 68, 0.123),rgba(8, 8, 41, 0.372));
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 80px;
+}
+button:hover{
+  background-color:rgba(96, 69, 98, 0.637);
+  color: rgb(83, 143, 192);
+  width: 100px;
+}
+  .Ad{
+    padding: 5rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: rgba(92, 87, 97, 0.349);
+    border-radius: 20px;
+    text-align: center;
+    margin: 2rem 5rem 12rem;
+    margin-top: 12px;
+  }
+  .Ad address{ 
+    color: white;
+    font-weight: 300;
+    padding-bottom: 1rem;
+  }
+  .Ad a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    float: left;
+    padding-left: 18rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  footer{
+    margin-top: 520px;
+    text-align: center;
+    padding: 15px;
+    background-color:rgba(92, 87, 97, 0.349);
+  }
+  footer div:first-child{
+    color: white;
+  }
+  footer .footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 50px;
+  }
+
+.A{
+background-color: aqua;
+background: transparent;
+}
+.A input[type=button]{
+  padding: 10px;
+  background-image: linear-gradient(to right,rgb(54, 54, 94),rgba(68, 40, 68, 0.384));
+}
+.A input[type=button]:hover{
+    background-image: linear-gradient(to right,rgba(68, 49, 68, 0.123),rgba(8, 8, 41, 0.372));
+}
